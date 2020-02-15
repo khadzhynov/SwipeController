@@ -1,14 +1,18 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
 namespace GG.Infrastructure.Utils.Swipe
 {
+    [Serializable]
+    public class SwipeListenerEvent : UnityEvent<string> { }
+
     public class SwipeListener : MonoBehaviour
     {
-        public UnityAction OnSwipeCancelled;
+        public UnityEvent OnSwipeCancelled;
 
-        public UnityAction<string> OnSwipe;
+        public SwipeListenerEvent OnSwipe;
 
         [SerializeField]
         private float _sensetivity = 10;

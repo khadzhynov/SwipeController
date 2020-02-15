@@ -5,6 +5,8 @@
         LeftRight,
         UpDown,
         FourSides,
-        EightSides
+        EightSides,
+        HexagonalHorizontal,
+        HexagonalVertical
     }
 }

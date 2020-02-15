@@ -21,6 +21,12 @@ namespace GG.Infrastructure.Utils.Swipe
                 case SwipeDetectionMode.EightSides:
                     return EightSidesPreset();
 
+                case SwipeDetectionMode.HexagonalHorizontal:
+                    return HexagonalHorizontalPreset();
+
+                case SwipeDetectionMode.HexagonalVertical:
+                    return HexagonalVerticalPreset();
+
                 default:
                     return FourSidesPreset();
             }
