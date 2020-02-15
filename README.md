@@ -25,8 +25,11 @@ Note, that there is no negative values, and no actual axes - only vector directi
 And even more, there is an ability to implement 3D swipes (for virtual reality) - its not supported because of default Input system utilized, but not a big deal to replace it with unitys XR input (implementation planned for future versions).
 
 ## Contact ##
+Mail:
 bryarey@gmail.com
-m.khadzhynov @ skype
+
+Skype:
+m.khadzhynov
 
 Support me on Patreon:
 https://www.patreon.com/user?u=26313020&fan_landing=true
