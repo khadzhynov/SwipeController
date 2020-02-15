@@ -27,6 +27,10 @@ And even more, there is an ability to implement 3D swipes (for virtual reality) 
 ## Video tutorial ##
 https://youtu.be/G6imm7pTA1c
 
+## WebGL Demo ##
+
+http://bryarey.zzz.com.ua/SwipeController/index.html
+
 ## Contact ##
 Mail:
 bryarey@gmail.com
