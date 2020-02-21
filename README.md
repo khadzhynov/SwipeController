@@ -24,8 +24,17 @@ So, as mentioned above, you can easely build your own coordinate system, based o
 Note, that there is no negative values, and no actual axes - only vector directions, which enables user to build, for example, 3-directions system with directions like UP, RIGHT and DOWN-LEFT.
 And even more, there is an ability to implement 3D swipes (for virtual reality) - its not supported because of default Input system utilized, but not a big deal to replace it with unitys XR input (implementation planned for future versions).
 
-## Video tutorial ##
+## Video tutorials ##
+
+#### Codeless setup ####
+https://youtu.be/sMYx8NY8FEs 
+
+#### Scripting setup ####
 https://youtu.be/G6imm7pTA1c
+
+## WebGL Demo ##
+
+http://bryarey.zzz.com.ua/SwipeController/index.html
 
 ## Contact ##
 Mail:
