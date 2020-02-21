@@ -48,6 +48,8 @@ namespace GG.Infrastructure.Utils.Swipe
             }
         }
 
+        public SwipeDetectionMode SwipeDetectionMode { get => _swipeDetectionMode; set => _swipeDetectionMode = value; }
+
         public void SetDetectionMode(List<DirectionId> directions)
         {
             _directions = new VectorToDirection(directions);
@@ -57,7 +59,10 @@ namespace GG.Infrastructure.Utils.Swipe
         {
             UpdateSensetivity();
 
-            SetDetectionMode(DirectionPresets.GetPresetByMode(_swipeDetectionMode));
+            if (SwipeDetectionMode != SwipeDetectionMode.Custom)
+            {
+                SetDetectionMode(DirectionPresets.GetPresetByMode(SwipeDetectionMode));
+            }
         }
 
         private void UpdateSensetivity()

@@ -7,6 +7,7 @@
         FourSides,
         EightSides,
         HexagonalHorizontal,
-        HexagonalVertical
+        HexagonalVertical,
+        Custom
     }
 }
